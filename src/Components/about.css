@@ -1,0 +1,32 @@
+.about__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 140px;
+  color: #00ceef;
+  border: 8px solid #00ceef;
+  border-radius: 0 0 200px 0;
+  border-radius: 0 0 50px 0;
+  width: 85%;
+  margin: 40px auto;
+}
+
+.about__description {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.9;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 575px) {
+  .about__section {
+    padding: 30px 20px;
+    color: #00ceef;
+    border: 8px solid #00ceef;
+    border-radius: 0 0 200px 0;
+    border-radius: 0 0 50px 0;
+    width: 85%;
+    margin: 40px auto;
+  }
+}

@@ -1,0 +1,90 @@
+.contact__section {
+  display: flex;
+  flex-wrap: wrap;
+  color: #00ceef;
+  width: 100%;
+  /* border: 8px solid #00ceef;
+  border-radius: 0 0 200px 0; */
+  justify-content: center;
+}
+.contact__title {
+  color: #00ceef;
+  text-align: center;
+  height: 50px;
+  margin-top: 80px;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5rem;
+  padding: 50px;
+}
+.social__media-contact {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.social__media-contact a {
+  color: #e6e6e6;
+}
+.social__media-contact a:hover {
+  color: #00ceef;
+}
+
+.contact__form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 50px;
+}
+.contact__form input {
+  align-self: flex-start;
+  width: 250px;
+  height: 25px;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+}
+.contact__form :focus {
+  border: #00ceef 1px solid;
+}
+::placeholder {
+  color: #00ceef;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.contact__form textarea {
+  align-self: start;
+  padding: 10px;
+  resize: none;
+  width: 300px;
+  height: 100px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+}
+.contact__form :focus {
+  border: #00ceef 2px solid;
+}
+.contact__form button {
+  margin: 0 auto;
+  width: 90px;
+  color: #fff;
+  background-color: transparent;
+  border: #00ceef 1px solid;
+  border-radius: 10px;
+  outline: #00ceef;
+  padding: 0.4rem 1.5rem;
+  cursor: pointer;
+}
