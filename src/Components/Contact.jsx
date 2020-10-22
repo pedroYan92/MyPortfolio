@@ -6,7 +6,7 @@ import { faFacebook, faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawe
 function Contact() {
     return (<>
         <h2 className="contact__title">CONTACT</h2>
-        <div className="contact__section">
+        <div className="contact__section" id='contact__section'>
             
         
                 <div className="contact__info">                

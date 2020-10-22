@@ -2,6 +2,8 @@ import React from 'react';
 import {MenuItems} from './MenuItems';
 import './nav.css';
 import { useState } from 'react';
+import {Link} from 'react-scroll';
+import {animateScroll as scroll} from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
@@ -14,9 +16,9 @@ function Nav() {
   return (
     <nav className='navBarItems'>
       
-      <a href='/' className='navbar-logo'>
+      <div className='navbar-logo' onClick={() => scroll.scrollToTop()}>
         Portfolio
-      </a>
+      </div>
 
       <div className="menu-icon" onClick={showMenu}>
         {state ? <FontAwesomeIcon icon={faTimes} /> : <FontAwesomeIcon icon={faBars} />}
@@ -26,9 +28,9 @@ function Nav() {
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <a className={item.cName} href={item.url}>
+              <Link className={item.cName} to={item.url} smooth={true} duration={1000}>
               {item.title}
-              </a>
+              </Link>
             </li>
           )
         })}        
