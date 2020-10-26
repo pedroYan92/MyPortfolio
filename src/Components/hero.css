@@ -62,7 +62,7 @@
 }
 .social__media {
   position: absolute;
-  right: 340px;
+  right: 300px;
   bottom: 26%;
   font-size: 1.5rem;
 }
@@ -70,7 +70,7 @@
   color: #e6e6e6;
   margin-right: 20px;
 }
-.scial__media a:hover {
+.social__media a:hover {
   color: #00ceef;
 }
 .scrolldown__img {
@@ -164,6 +164,11 @@
     padding: 8px;
     width: 255px;
     background-color: #00ceef;
+  }
+  .social__media {
+    display: flex;
+    font-size: 1.3rem;
+    justify-self: center;
   }
 }
 @media screen and (max-width: 960px) {

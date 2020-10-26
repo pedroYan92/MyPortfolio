@@ -11,3 +11,7 @@
   text-align: center;
   color: #00ceef;
 }
+.footer__info a {
+  text-decoration: none;
+  color: #efd700;
+}

@@ -80,11 +80,15 @@
 .contact__form button {
   margin: 0 auto;
   width: 90px;
-  color: #fff;
+  color: #00ceef;
   background-color: transparent;
   border: #00ceef 1px solid;
   border-radius: 10px;
   outline: #00ceef;
   padding: 0.4rem 1.5rem;
   cursor: pointer;
+}
+.contact__form button:hover {
+  color: #00ceef;
+  background-color: #e2e2e2;
 }
