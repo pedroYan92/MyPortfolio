@@ -23,12 +23,12 @@ function Hero() {
             <h3>I'm a brazillian front end developer</h3>
             <h4>Find me on:</h4>
             <div className='social__media'>        
-              <a href="/"><FontAwesomeIcon icon={faGithub} /></a>
-              <a href="/"><FontAwesomeIcon icon={faLinkedin}  /></a>
-              <a href="/"><FontAwesomeIcon icon={faTwitter}  /></a>
-              <a href="/"><FontAwesomeIcon icon={faInstagram}  /></a>
-              <a href="/"><FontAwesomeIcon icon={faFacebook}  /></a>
-              <a href="/"><FontAwesomeIcon icon={faYoutube}  /></a>        
+              <a href="https://github.com/pedroYan92"><FontAwesomeIcon icon={faGithub} /></a>
+              <a href="https://www.linkedin.com/in/pedro-yanez-72591b1ba/"><FontAwesomeIcon icon={faLinkedin}  /></a>
+              <a href="https://twitter.com/YanFrontEnd"><FontAwesomeIcon icon={faTwitter}  /></a>
+              <a href="https://www.instagram.com/yanfrontend/"><FontAwesomeIcon icon={faInstagram}  /></a>
+              <a href="https://www.facebook.com/pedro.yan.921677"><FontAwesomeIcon icon={faFacebook}  /></a>
+              <a href="https://www.youtube.com/channel/UCWGWVabQ7miSVjW75cPxcdQ/featured"><FontAwesomeIcon icon={faYoutube}  /></a>        
             </div> 
             <div className='scrolldown__img' >
               <p>scroll down</p>
