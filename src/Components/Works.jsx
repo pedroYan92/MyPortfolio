@@ -38,8 +38,8 @@ function Works() {
                         <p className="card__description"> A simple CRUD App to add, edit and delete costumers</p>
                     </a>
                     <div className="buttons__card__position">
-                        <a href="https://productregister-app.netlify.app/">See more</a>
-                        <a href="https://github.com/pedroYan92/register-items-project">Source code</a></div>                
+                        <a href="https://simplecrudapp.netlify.app/">See more</a>
+                        <a href="https://github.com/pedroYan92/Simple-CRUD-APP">Source code</a></div>                
                 </div>
             </div>
               
