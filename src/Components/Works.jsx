@@ -2,7 +2,7 @@ import React from 'react'
 import './works.css'
 import website from './img/website.png';
 import searchBooks from './img/searchBooks.png';
-import instant from './img/ProductRegisterApp.png';
+import simpleCRUDapp from './img/simpleCRUDapp.png';
 
 function Works() {
     return (
@@ -32,10 +32,10 @@ function Works() {
                         <a href="https://github.com/pedroYan92/Search-Book-project">Source code</a></div>                
                 </div>
                 <div className="card__project">
-                    <a href="https://productregister-app.netlify.app/">
-                        <img src={instant} alt="" className="img__card" width="250px" height="150px"/>
-                        <h3 className="card__title"> Instant Product Register App</h3>
-                        <p className="card__description"> A simple App to include fake items in the page</p>
+                    <a href="https://simplecrudapp.netlify.app/">
+                        <img src={simpleCRUDapp} alt="" className="img__card" width="250px" height="150px"/>
+                        <h3 className="card__title"> Simple CRUD App</h3>
+                        <p className="card__description"> A simple CRUD App to add, edit and delete costumers</p>
                     </a>
                     <div className="buttons__card__position">
                         <a href="https://productregister-app.netlify.app/">See more</a>
